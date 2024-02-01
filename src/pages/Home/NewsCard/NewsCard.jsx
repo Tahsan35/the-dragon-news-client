@@ -2,9 +2,9 @@
 import {Card, Image} from "react-bootstrap";
 import {FaEye, FaRegBookmark, FaShareAlt} from "react-icons/fa";
 import {Rating} from "@smastrom/react-rating";
-import "@smastrom/react-rating/style.css";
 import {Link} from "react-router-dom";
 import moment from "moment";
+import "@smastrom/react-rating/style.css";
 
 // eslint-disable-next-line react/prop-types
 const NewsCard = ({news}) => {

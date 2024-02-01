@@ -1,12 +1,9 @@
 import Footer from "../pages/Shared/Footer/Footer";
 import Header from "../pages/Shared/Header/Header";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
+import {Col, Container, Row} from "react-bootstrap";
 import LeftNav from "../pages/Shared/LeftNav/LeftNav";
 import RightNav from "../pages/Shared/RightNav/RightNav";
 import NavigationBar from "../pages/Shared/NavigationBar/NavigationBar";
-
 import {Outlet} from "react-router-dom";
 
 const Main = () => {
